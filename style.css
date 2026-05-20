@@ -1,0 +1,73 @@
+/* ===== ESTILO GERAL ===== */
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e3f2fd; /* Aquele azul clarinho */
+    color: #1565c0;
+    padding: 50px 20px;
+    transition: background-color 0.5s ease;
+}
+
+/* ===== TÍTULO ===== */
+h1 {
+    color: #1565c0; 
+}
+
+/* ===== RESULTADO ===== */
+#relogio {
+    background-color: #ffffff; /* Caixinha branca para o relógio */
+    display: inline-block; /* Faz a caixinha abraçar o texto */
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05); /* Sombra leve */
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.8;
+    transition: all 0.3s ease; /* caixa mais viva*/
+}
+#relogio:hover {
+    transform: scale(1.03);
+}
+#semana {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#data {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+#hora {
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+/* ===== BOTÃO NOTURNO FLUTUANTE ===== */
+#btn-noturno {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 0;
+    font-size: 20px;
+    z-index: 1000;
+}
+
+/* ===== MODO NOTURNO ===== */
+body.dark-mode {
+    background-color: #121212;
+    color: #e3f2fd;
+}
+
+body.dark-mode h1 {
+    color: #90caf9;
+}
+
+body.dark-mode #relogio {
+    background-color: #1c2541; /* caixinha escura no modo noturno*/
+    color: #90caf9; /* Azul claro pro texto */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4); /* Sombra mais forte */
+}
