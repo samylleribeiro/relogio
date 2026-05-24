@@ -17,13 +17,13 @@ h1 {
 #relogio {
     background-color: #ffffff; /* Caixinha branca para o relógio */
     display: inline-block; /* Faz a caixinha abraçar o texto */
-    padding: 30px 20px;
-    width: 95%;    /*ajustada para celular*/
-    max-width: 420px;  /* ajustada pro computador*/
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05); /* Sombra leve */
+    padding: 40px 30px;
+    width: 85%;    /*ajustada para celular*/
+    max-width: 450px;  /* ajustada pro computador*/
+    border-radius: 20px; /*cantos arredondados*/
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); /* Sombra leve */
     font-weight: bold;
-    line-height: 1.8;
+    line-height: 1.6;
     transition: all 0.3s ease; /* caixa mais viva*/
 }
 #relogio:hover {
@@ -40,9 +40,9 @@ h1 {
 }
 
 #hora {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 /* ===== BOTÃO NOTURNO FLUTUANTE ===== */
 #btn-noturno {
